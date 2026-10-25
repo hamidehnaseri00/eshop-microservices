@@ -2,11 +2,11 @@
   "profiles": {
     "http": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser":true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "dotnetRunMessages": true,
+      "dotnetRunMessages": false,
       "applicationUrl": "http://localhost:5000"
     },
     "https": {

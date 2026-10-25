@@ -1,7 +1,19 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj" Id="eb424beb-5fee-44eb-a1ef-05962515069e" />
+  </Folder>
   <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Basket/">
+    <Project Path="Services/Basket/Basket.API/Basket.API.csproj" Id="c9a0dbea-bafa-4ccb-b297-1f72b5f26ae0" />
+  </Folder>
   <Folder Name="/src/Services/Catalog/">
     <Project Path="Services/Catalog/Catalog.API/Catalog.API.csproj" Id="4d311d79-b646-4e24-9929-fe563fdc1c4f" />
   </Folder>
+  <Folder Name="/src/Services/Discount/">
+    <Project Path="Services/Discount/discount.grpc/discount.grpc.csproj" Id="aefe681d-2932-4307-8062-50b5a91302a0" />
+  </Folder>
+  <Project Path="docker-compose.dcproj">
+    <Build />
+  </Project>
 </Solution>
